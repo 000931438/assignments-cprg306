@@ -11,7 +11,7 @@ export default function StudentInfo() {
           href="https://github.com/000931438/assignments-cprg306"
           className="text-blue-400 hover:text-blue-300 underline"
         >
-          cprg306-assignments
+          assignments-cprg306
         </Link>
       </p>
     </div>
