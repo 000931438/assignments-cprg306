@@ -8,7 +8,7 @@ export default function StudentInfo() {
       <p className="text-slate-300">
         GitHub:{" "}
         <Link
-          href="https://github.com/000931438/cprg306-assignments"
+          href="https://github.com/000931438/assignments-cprg306"
           className="text-blue-400 hover:text-blue-300 underline"
         >
           cprg306-assignments
