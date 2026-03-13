@@ -1,5 +1,5 @@
-import Item from "./item";
-import items from "./items.json";
+import Item from "./GroceryItem";
+import items from "./Groceryitems.json";
 
 export default function ItemList() {
   const grouped = items.reduce((acc, item) => {

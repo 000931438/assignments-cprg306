@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ItemList from "./item-list";
+import ItemList from "./GroceryItem-list";
 
 export default function Page() {
   return (

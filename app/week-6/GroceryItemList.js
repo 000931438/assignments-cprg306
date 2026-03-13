@@ -1,4 +1,4 @@
-import Item from "./Item";
+import Item from "./GroceryItem";
 
 export default function ItemList({ items }) {
   const grouped = items.reduce((acc, item) => {

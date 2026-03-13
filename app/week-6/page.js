@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import itemsData from "./items.json";
-import NewItem from "./NewItem";
-import ItemList from "./ItemList";
+import itemsData from "./Groceryitems.json";
+import NewItem from "./NewGroceryItem";
+import ItemList from "./GroceryItemList";
 
 export default function Page() {
   const [items, setItems] = useState(itemsData);
@@ -48,6 +48,17 @@ export default function Page() {
       {/* Items List */}
       <div className="bg-slate-800 p-6 rounded-lg shadow-lg border border-slate-700 w-full">
         <ItemList items={items} />
+      </div>
+
+      {/* Bottom Home Button */}
+      <div className="flex justify-center mt-12">
+        <Link
+          href="/"
+          className="px-3 py-1.5 bg-slate-800 border border-slate-700 rounded-md 
+                     text-sm font-medium hover:bg-slate-700 transition"
+        >
+          Home
+        </Link>
       </div>
 
     </main>

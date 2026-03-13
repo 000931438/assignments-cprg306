@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import NewItem from "./NewItem";
+import NewItem from "./NewGroceryItem.js";
 
 export default function Page() {
   return (
@@ -34,6 +34,17 @@ export default function Page() {
       {/* Form Container */}
       <div className="bg-slate-800 p-6 rounded-lg shadow-lg border border-slate-700 w-full">
         <NewItem />
+      </div>
+
+      {/* Bottom Home Button */}
+      <div className="flex justify-center mt-12">
+        <Link
+          href="/"
+          className="px-3 py-1.5 bg-slate-800 border border-slate-700 rounded-md 
+                     text-sm font-medium hover:bg-slate-700 transition"
+        >
+          Home
+        </Link>
       </div>
 
     </main>
