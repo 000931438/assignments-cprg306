@@ -35,7 +35,7 @@ export default function MealIdeas({ ingredient }) {
   return (
     <div>
       <h2 className="text-xl font-bold mb-4">
-        Meal Ideas For "{ingredient}"
+        Meal Ideas For &quot;{ingredient}&quot;
       </h2>
 
       {/* No meals found */}
