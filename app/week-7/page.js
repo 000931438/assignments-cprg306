@@ -27,7 +27,7 @@ export default function Page() {
         </Link>
 
         <Link
-          href="/"
+          href="/week-8"
           className="px-3 py-1.5 bg-slate-800 border border-slate-700 rounded-md 
                      text-sm font-medium hover:bg-slate-700 transition"
         >
