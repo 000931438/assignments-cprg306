@@ -76,6 +76,14 @@ export default function Page() {
           Week-9
         </Link>
 
+        {/* Week 10 */}
+        <Link
+          href="/week-10"
+          className="text-center border border-slate-600 bg-slate-800 hover:bg-slate-700 text-slate-100 font-semibold py-4 rounded-xl text-xl transition shadow-md hover:shadow-lg"
+        >
+          Week-10
+        </Link>
+
       </div>
     </main>
   );
